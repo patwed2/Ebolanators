@@ -1,10 +1,2 @@
 # Ebolanators
-help how do i java
-
-
-really though
-
-
-help me
-
-I AM BECOME COLLABORATOR
+# this is where we do ALL OF OUR WORK
