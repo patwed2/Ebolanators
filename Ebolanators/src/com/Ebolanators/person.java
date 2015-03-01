@@ -35,4 +35,23 @@ public interface person {
      * @param health Amount of health to deduct
      */
     public void doDamage(int health);
+    
+    /**
+     *
+     * @param distance Distance from diseased individual
+     * @return percent chance of infection
+     */
+    public double resistance(double distance);
+    
+    /**
+     *
+     * @return Whether person is infected
+     */
+    public boolean infected();
+    
+    /**
+     *
+     * @param infected Set whether infected or not
+     */
+    public void setInfection(boolean infected);
 }
