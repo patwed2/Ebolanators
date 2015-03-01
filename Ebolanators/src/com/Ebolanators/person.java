@@ -17,4 +17,22 @@ public interface person {
      * @return schedule class defining movement
      */
     public schedule getMovement(int period);
+    
+    /**
+     *
+     * @return Returns starting health of person
+     */
+    public int getMaxHealth();
+
+    /**
+     *
+     * @return Returns current health of person
+     */
+    public int getHealth();
+
+    /**
+     *
+     * @param health Amount of health to deduct
+     */
+    public void doDamage(int health);
 }
