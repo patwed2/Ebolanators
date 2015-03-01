@@ -10,8 +10,8 @@ package com.Ebolanators;
  * @author will
  */
 public class student implements person {
-    private final int MAX_HEALTH = 100; // Change max health here
-    private final double GUARANTEED_INFECTION_DISTANCE = 0.7;
+    private final int MAX_HEALTH = disease.MAX_HEALTH; // Change max health here
+    private final double GUARANTEED_INFECTION_DISTANCE = disease.GUARANTEED_INFECTION_DISTANCE;
     
     private int health = MAX_HEALTH;
     private boolean infected = false;
