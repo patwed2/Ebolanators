@@ -1,18 +1,20 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Ebolanators
+ * 
+ * A disease simulator
  */
 package com.Ebolanators;
 
 /**
  *
- * @author will
+ * @authors will, dana, pat
  */
 public class model {
 
     /**
      * @param args the command line arguments
+     * 
+     * Main Function, program starts here
      */
     public static void main(String[] args) {
         // TODO code application logic here
